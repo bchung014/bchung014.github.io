@@ -35,12 +35,13 @@ h1, h2, h3, h4, h5 {
   font-weight: 200; }
 
 a {
-  -webkit-transition: .3s all;
-  -o-transition: .3s all;
-  transition: .3s all;
-  color: #57d131; }
-  a:hover, a:focus, a:active {
-    color: #4ebe2a;
+  color: rgb(255, 220, 226);
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+  }
+  a:hover {
+    color: rgb(255, 240, 154);
     text-decoration: none; }
 
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
@@ -139,7 +140,6 @@ a {
       color: #57d131 !important; }
 
 .site-hero {
-
   position: relative;
   overflow: hidden; }
   .site-hero, .site-hero .row {
@@ -157,14 +157,10 @@ a {
   .site-hero h1 {
     font-size: 2rem;
     font-weight: 200;
-    margin-bottom: 20px;
+    margin-bottom: 150px;
     display: block; }
     .site-hero h1 strong {
       font-weight: 800; }
-    /* @media (min-width: 768px) {
-      .site-hero h1 {
-        font-size: 40px;
-        } } */
   .site-hero h1, .site-hero .lead {
     font-weight: 200;
     color: #fff; }
@@ -186,6 +182,7 @@ a {
     position: relative;
     font-weight: 200;
     padding-top: 20px;
+    color: white;
     font-size: 30px; }
     .section-heading h2 strong {
       font-weight: 800; }
@@ -612,10 +609,9 @@ body {
 }
 
 .neon {
-  animation: neon-shine 1.7s ease;
-  -moz-animation: neon-shine 1.7s ease;
-  -webkit-animation: neon-shine 1.7s ease;
-
+  animation: neon-shine 2.5s ease;
+  -moz-animation: neon-shine 2.5s ease;
+  -webkit-animation: neon-shine 2.5s ease;
   animation-fill-mode: forwards;
 }
 
@@ -628,8 +624,19 @@ body {
   animation: fadein 1.5s ease-in;
   -moz-animation: fadein 1.5s ease-in;
   -webkit-animation: fadein 1.5s ease-in;
+  animation-fill-mode: forwards;
 }
 
+/* Media queries for desktop */
+@media (min-width: 1024px) {
+  .navbar-nav {
+    animation: fadein 1.5s ease-in;
+    -moz-animation: fadein 1.5s ease-in;
+    -webkit-animation: fadein 1.5s ease-in;
+  }
+}
+
+/* Media queries for mobile */
 @media (max-width: 1024px) {
   .cover-photo {
     background-size: cover;
