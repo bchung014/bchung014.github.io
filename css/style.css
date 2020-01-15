@@ -703,9 +703,9 @@ a:hover {
 }
 
 .fader {
-  animation: fadein 2.8s ease-in;
-  -moz-animation: fadein 2.8s ease-in;
-  -webkit-animation: fadein 2.8s ease-in;
+  animation: fadein 3.2s ease-in;
+  -moz-animation: fadein 3.2s ease-in;
+  -webkit-animation: fadein 3.2s ease-in;
   animation-fill-mode: forwards;
 }
 
@@ -802,4 +802,12 @@ a:hover {
 
 .devicons-container:first-child {
   margin-bottom: 2vh;
+}
+
+.carousel-control-prev {
+  left: -15px;
+}
+
+.carousel-control-next {
+  right: -15px;
 }
