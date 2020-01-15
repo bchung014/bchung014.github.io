@@ -714,9 +714,9 @@ a:hover {
 }
 
 .fader {
-  animation: fadein 4s ease-in;
-  -moz-animation: fadein 4s ease-in;
-  -webkit-animation: fadein 4s ease-in;
+  animation: fadein 2.6s ease-in;
+  -moz-animation: fadein 2.6s ease-in;
+  -webkit-animation: fadein 2.6s ease-in;
   animation-fill-mode: forwards;
 }
 
