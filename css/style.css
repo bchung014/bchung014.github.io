@@ -173,7 +173,8 @@ h1, h2, h3, h4, h5 {
     color: rgba(255, 255, 255, 0.5); }
 
 .site-section {
-  padding: 5em 0; }
+  padding-top: 5em;
+}
 
 .section-heading {
   margin-bottom: 30px;
@@ -335,10 +336,10 @@ h1, h2, h3, h4, h5 {
   .single-portfolio .p-inner {
     text-align: center; }
     .single-portfolio .p-inner h4 {
+      /* color: #ffd1d4; */
       font-size: 20px; }
     .single-portfolio .p-inner .cat {
-      font-size: 12px;
-      text-transform: uppercase;
+      font-size: 14#px;
       color: #cccccc; }
 
 /*--------- Start Portfolio Area -------------*/
@@ -712,9 +713,9 @@ a:hover {
 }
 
 .fader {
-  animation: fadein 3.5s ease-in;
-  -moz-animation: fadein 3.5s ease-in;
-  -webkit-animation: fadein 3.5s ease-in;
+  animation: fadein 4s ease-in;
+  -moz-animation: fadein 4s ease-in;
+  -webkit-animation: fadein 4s ease-in;
   animation-fill-mode: forwards;
 }
 
@@ -732,8 +733,9 @@ a:hover {
 */
 .pronouns {
   font-style: italic;
-  color: #ffd1d4;
-  opacity: 0.6;
+  background: rgba(255, 209, 212, 0.6);
+  color: black;
+  padding: 0px 6px;
 }
 
 .blurb {
@@ -795,6 +797,10 @@ a:hover {
 // Skills
 //
 */
+.pink-flare {
+  color: #ffd1d4;
+}
+
 .test-item {
   background: green;
   border: 1px solid red;
@@ -824,4 +830,48 @@ a:hover {
 
 .carousel-control-next {
   right: -15px;
+}
+
+
+
+/* 
+//
+// Portfolio
+//
+*/
+
+.project-title {
+  font-style: italic;
+  background: rgba(255, 209, 212, 0.6);
+  color: black;
+}
+
+.project-link {
+  font-size: 18px;
+  text-shadow:
+    0 0 .5vw rgb(87, 87, 87);
+  color: whitesmoke;
+}
+
+.project-link:hover {
+  text-shadow:
+    0 0 1vw pink,
+    0 0 3vw pink,
+    0 0 10vw pink,
+    0 0 10vw pink,
+    0 0 .4vw white;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/* 
+//
+// Things I like
+//
+*/
+
+#section-likes {
+  padding-top: 2em;
 }
