@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5); }
+    background: rgba(0, 0, 0, 0.4); }
   .site-hero h1 {
     font-weight: 200;
     margin-bottom: 20px;
@@ -203,6 +203,7 @@ h1, h2, h3, h4, h5 {
     transform: translateX(-50%); }
 
 .lead {
+  color: rgba(255, 209, 212, 0.9);
   font-weight: 200;
   line-height: 1.5; }
 
@@ -669,15 +670,23 @@ a:hover {
   text-decoration: none;
 }
 
+.unlit {
+  opacity: 0.5;
+}
+
+.splash-header:hover span {
+  opacity: 1;
+}
+
 @media (min-width: 1024px) {
   .splash-header {
   } 
 }
 
-#neon {
-  animation: neon-shine 2.5s ease;
-  -moz-animation: neon-shine 2.5s ease;
-  -webkit-animation: neon-shine 2.5s ease;
+.neon {
+  animation: neon-shine 2s ease;
+  -moz-animation: neon-shine 2s ease;
+  -webkit-animation: neon-shine 2s ease;
   animation-fill-mode: forwards;
 }
 
@@ -703,9 +712,9 @@ a:hover {
 }
 
 .fader {
-  animation: fadein 3.2s ease-in;
-  -moz-animation: fadein 3.2s ease-in;
-  -webkit-animation: fadein 3.2s ease-in;
+  animation: fadein 3.5s ease-in;
+  -moz-animation: fadein 3.5s ease-in;
+  -webkit-animation: fadein 3.5s ease-in;
   animation-fill-mode: forwards;
 }
 
@@ -721,9 +730,15 @@ a:hover {
 // About Me
 //
 */
+.pronouns {
+  font-style: italic;
+  color: #ffd1d4;
+  opacity: 0.6;
+}
 
 .blurb {
   margin-bottom: 0px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .socials-container {
@@ -780,7 +795,6 @@ a:hover {
 // Skills
 //
 */
-
 .test-item {
   background: green;
   border: 1px solid red;
