@@ -574,6 +574,11 @@ h1, h2, h3, h4, h5 {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
+    .site-footer .social-item:hover {
+      background: #ffd1d4;
+      border: none;
+      color: black;
+    }
 
 .block-47 .block-47-image {
   -webkit-box-flex: 0;
@@ -620,9 +625,9 @@ a {
 
 a:hover {
   color: black;
-  -webkit-transition: .2s all;
-  -o-transition: .2s all;
-  transition: .2s all;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
   text-decoration: none;
 }
 
@@ -808,12 +813,6 @@ a:hover {
   color: #ffd1d4;
 }
 
-.test-item {
-  background: green;
-  border: 1px solid red;
-  padding: 50px;
-}
-
 .devicons-container {
   display: flex;
   justify-content: space-evenly;
@@ -901,4 +900,8 @@ a:hover {
 .footer-socials-container {
   display: flex;
   justify-content: center;
+}
+
+.footer-copyright {
+  color: #ffd1d4;
 }
