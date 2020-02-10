@@ -757,18 +757,35 @@ a:hover {
 
 .socials-container {
   display: flex;
-  width: 30%;
-  height: 100%;
+  flex-direction: column;
+  /* width: 50%; */
+  /* height: 100%; */
   margin-top: 2rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.5rem;
   margin-left: 5px;
   justify-content: space-between;
   font-size: 24px;
 }
 
+.socials-container > div {
+  /* border: 1px solid blue; */
+  display: flex;
+}
+
+.socials-container > div:first-child {
+  padding-bottom: 15px;
+}
+
 .socials-container a {
   /* display: block; */
+  display: flex;
   color: #ffd1d4;
+  padding-right: 25px;
+}
+
+.socials-container p {
+  padding-left: 10px;
+  font-size: 14px;
 }
 
 .socials-container i {
