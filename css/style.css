@@ -720,9 +720,9 @@ a:hover {
 }
 
 .fader {
-  animation: fadein 2.6s ease-in;
-  -moz-animation: fadein 2.6s ease-in;
-  -webkit-animation: fadein 2.6s ease-in;
+  animation: fadein 1.0s ease-in;
+  -moz-animation: fadein 1.0s ease-in;
+  -webkit-animation: fadein 1.0s ease-in;
   animation-fill-mode: forwards;
 }
 
@@ -738,9 +738,20 @@ a:hover {
 // About Me
 //
 */
+.line-height-change {
+  line-height: 2rem;
+}
+
 .headshot {
-  border-radius: 100px 25px;
-  opacity: 0.8;
+  border-radius: 5px;
+  height: 70vh;
+  opacity: 0.7;
+}
+
+
+
+.test-border {
+  border: 1px solid red;
 }
 
 .pronouns {
